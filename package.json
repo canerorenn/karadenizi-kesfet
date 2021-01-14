@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,17 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "sass": "^1.32.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.14",
+    "@storybook/addon-essentials": "^6.1.14",
+    "@storybook/addon-links": "^6.1.14",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.1.14",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0"
   }
 }
